@@ -44,9 +44,12 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #e3e1e1;
 }
- 
+
+h1 {
+  color: white;
+}
 section {
     animation: fadeIn 1s ease-in;
     overflow: hidden;
