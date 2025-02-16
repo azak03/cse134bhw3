@@ -89,29 +89,5 @@ figure img {
 }
 
 @media (max-width: 768px) {
-    #mobile {
-        display: block;
-        position: absolute;
-        left: 2vi;
-        top: 2vi;
-    }
 
-    .links a {
-        display: none;
-        width: 100%;
-        text-align: center;
-        background-color: rgba(34, 34, 34, 0.9);
-        padding: 2vi;
-        border-radius: 1vi;
-    }
-
-    .links.show a {
-        display: block;
-    }
-
-    .links {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 6vi;
-    }
 }
