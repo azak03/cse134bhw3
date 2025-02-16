@@ -1,4 +1,18 @@
-h1 {
-    font-size: 2rem;
-    animation: fadeIn 1s ease-in;
+.navigation {
+  display: flex;
+  list-style: none;
+  background: gray;
+  justify-content: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  background: #1565C0;
 }
