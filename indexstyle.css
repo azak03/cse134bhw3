@@ -11,6 +11,13 @@
 blockquote {
   color: color-mix(in display-p3, white 80%, orange 20%);
 }
+
+.links button {
+    display: none;
+    font-size: 3vi;
+    cursor: pointer;
+}
+
 .links {
   display: flex;
   list-style: none;
