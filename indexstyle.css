@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'futura';
-  src: url('resources/futura.ttf') format('tff'),
+  src: url('resources/futura-book-webfont.woff2') format('woff2'),
   font-weight: normal;
   font-style: normal;
 }
