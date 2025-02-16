@@ -9,7 +9,7 @@
   font-style: normal;
 }
 blockquote {
-  color: color-mix(in display-p3, white 80%, purple 20%);
+  color: color-mix(in display-p3, white 80%, orange 20%);
 }
 .links {
   display: flex;
