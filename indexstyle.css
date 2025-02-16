@@ -25,6 +25,7 @@ blockquote {
 }
 
 .links {
+  position: relative;
   display: flex;
   list-style: none;
   background: none;
