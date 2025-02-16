@@ -35,6 +35,22 @@ body {
  
 section {
     animation: fadeIn 1s ease-in;
+    overflow: hidden;
+}
+
+section p {
+  text-align: left;
+}
+
+figure {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
 }
 
 @keyframes fadeIn {
