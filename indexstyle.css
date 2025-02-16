@@ -9,7 +9,7 @@
   font-style: normal;
 }
 h1 {
-  color: color-mix(in display-p3, white 80%, blue 20%);
+  color: color-mix(in display-p3, white 80%, lightblue 20%);
 }
 .links {
   display: flex;
