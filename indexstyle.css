@@ -1,5 +1,5 @@
 :root {
-  --main-font: 'futura', Arial, sans-serif;
+  --site-font: 'futura', Helvetica, Arial;
 }
 
 @font-face {
@@ -34,7 +34,7 @@
 }
 
 body {
-    font-family: var(--main-font);
+    font-family: var(--site-font);
     background-color: #1c1c1d;
     margin: 0;
     padding: 0;
