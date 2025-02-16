@@ -88,11 +88,11 @@ figure img {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-}
+
 
 @media (max-width: 768px) {
   body {
-    padding: 0.5 6dvw;
+    padding: 0 6dvw;
     font-size: 2rem;
   }
   h1 {
