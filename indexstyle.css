@@ -43,10 +43,11 @@ blockquote {
 }
 
 body {
+    font-size: 1.2rem;
     font-family: var(--site-font);
     background-color: #1c1c1d;
     margin: 0;
-    padding: 0;
+    padding: 3dvw;
     display: flex;
     flex-direction: column;
     align-items: center;
