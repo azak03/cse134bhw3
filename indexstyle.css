@@ -89,12 +89,10 @@ figure img {
 }
 
 @media (max-width: 768px) {
-    .links {
+    .links a {
         display: none;
     }
-    .links.show {
-        display: flex;
-    }
+
     #mobile {
         display: block;
     }
