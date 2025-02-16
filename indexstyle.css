@@ -36,6 +36,7 @@ body {
 section {
     animation: fadeIn 1s ease-in;
     overflow: hidden;
+    border-bottom: 1px solid gray;
 }
 
 section p {
