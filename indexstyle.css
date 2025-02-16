@@ -103,8 +103,10 @@ figure img {
   .links a {
     display: none;
   }
+  .links {
+    justify-content: start;
+  }
   #mobile {
     display: flex;
-    justify-content: start;
   }
 }
