@@ -92,7 +92,9 @@ figure img {
     .links {
         display: none;
     }
-
+    .links.show {
+        display: flex;
+    }
     .links button {
         display: block;
     }
