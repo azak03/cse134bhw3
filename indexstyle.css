@@ -91,6 +91,14 @@ figure img {
 @media (max-width: 768px) {
     .links {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 6vi;
+        right: 2vi;
+        background-color: rgba(34, 34, 34, 0.9);
+        padding: 2vi;
+        border-radius: 1vi;
+        text-align: right;
     }
     .links.show {
         display: flex;
