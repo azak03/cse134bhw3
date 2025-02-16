@@ -18,14 +18,13 @@ blockquote {
     background: none;
     color: white;
     border: none;
-    position: absolute;
     box-shadow: none;
     left: 2dvw;
     top: 2dvh;
 }
 
 .links {
-  position: relative;
+  display: flex;
   list-style: none;
   background: none;
   justify-content: center;
