@@ -103,6 +103,7 @@ figure img {
   }
   .links {
     justify-content: start;
+    margin: 0.25rem auto;
   }
   #mobile {
     display: flex;
