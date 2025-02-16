@@ -50,6 +50,11 @@ body {
 h1 {
   color: white;
 }
+
+h2 {
+  color: white;
+}
+
 section {
     animation: fadeIn 1s ease-in;
     overflow: hidden;
