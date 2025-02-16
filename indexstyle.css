@@ -8,8 +8,8 @@
   font-weight: normal;
   font-style: normal;
 }
-h1 {
-  color: color-mix(in display-p3, white 80%, lightblue 20%);
+blockquote {
+  color: color-mix(in display-p3, white 80%, red 20%);
 }
 .links {
   display: flex;
