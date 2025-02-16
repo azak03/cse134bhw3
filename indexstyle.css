@@ -14,8 +14,8 @@ blockquote {
 
 #mobile {
     display: none;
-    font-size: 3vi;
-    cursor: pointer;
+    font-size: 3rem;
+    background: none;
 }
 
 .links {
@@ -94,9 +94,6 @@ figure img {
   body {
     padding: 0 6dvw;
     font-size: 2rem;
-  }
-  h1 {
-    color: red;
   }
   .links a {
     display: none;
