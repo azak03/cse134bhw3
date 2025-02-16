@@ -98,4 +98,10 @@ figure img {
   h1 {
     color: red;
   }
+  .links a {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
 }
