@@ -33,7 +33,7 @@ body {
     color: white;
 }
  
-.section-box {
+section {
     animation: fadeIn 1s ease-in;
 }
 
