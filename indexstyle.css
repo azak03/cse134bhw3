@@ -103,7 +103,7 @@ figure img {
   }
   figure img {
     object-fit: cover;
-    object-position: center;
+    object-position: left;
   }
   body {
     font-size: 2rem;
