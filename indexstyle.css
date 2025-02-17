@@ -29,6 +29,7 @@ blockquote {
   margin: 0.5rem auto;
   align-self: stretch;
   border-bottom: 1px solid gray;
+  padding: 0;
   width: 100%;
 }
 
