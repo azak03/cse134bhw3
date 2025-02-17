@@ -12,6 +12,10 @@ blockquote {
   color: color-mix(in display-p3, white 80%, orange 20%);
 }
 
+fieldset {
+    border: none;
+    padding: 0;
+}
 input[type="text"], select, textarea {
     width: 100%;
     padding: 0.8rem;
