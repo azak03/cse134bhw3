@@ -69,11 +69,10 @@ section {
     animation: fadeIn 1s ease-in;
     overflow: hidden;
     border-bottom: 1px solid gray;
-    width: 100%;
 }
 
 section p {
-  text-align: center;
+  text-align: left;
   padding: 0 3dvw;
 }
 
