@@ -84,6 +84,7 @@ figure:has(img) {
 figure {
     margin-left: 1rem auto;
     padding: 0 3dvw;
+    box-sizing: border-box;
 }
 
 figure img {
