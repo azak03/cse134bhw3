@@ -77,21 +77,6 @@ section p {
   padding: 0 3dvw;
 }
 
-figure:has(img) {
-    float: right;
-    width: 30%;
-}
-
-figure {
-    margin-left: 1rem auto;
-    padding: 0 3dvw;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-}
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -99,24 +84,8 @@ figure img {
 
 
 @media (max-width: 768px) {
-  figure:has(img) {
-    float: none;
-    width: 100%;
-  }
-  figure {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-  }
-  figure img {
-    object-fit: cover;
-    object-position: center;
-  }
   body {
     font-size: 2rem;
-  }
-  figure {
-    padding: 0 6dvw;
   }
   section p {
     padding: 0 6dvw;
