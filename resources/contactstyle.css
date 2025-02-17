@@ -5,6 +5,9 @@ fieldset {
     border: none;
     padding: 0;
 }
+label {
+    margin-bottom: 0.5rem;
+}
 input, select, textarea {
     width: 100%;
     padding: 0.8rem;
