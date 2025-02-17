@@ -59,7 +59,6 @@ body {
 
 h1 {
   color: color(display-p3 1 0.5 0);
-  transition: width 2s, height 4s;
 }
 
 h2 {
@@ -68,6 +67,7 @@ h2 {
 
 section {
     animation: fadeIn 1s ease-in;
+    animation-delay: 0.2s;
     overflow: hidden;
     border-bottom: 1px solid gray;
 }
