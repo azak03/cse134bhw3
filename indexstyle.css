@@ -101,6 +101,10 @@ figure img {
     margin-left: none;
     padding: 0;
   }
+  figure img {
+    object-fit: cover;
+    object-position: center;
+  }
   body {
     font-size: 2rem;
   }
