@@ -9,28 +9,17 @@
     <link rel="stylesheet" href="indexstyle.css">
 </head>
 <body>
-        <nav>
-            <a href='/index.html'>Home</a>
-            <a href="projects.html">My projects</a>
-            <a href="contact.html">Contact me</a>
-        </nav>
-        <form role="search">
-            <label for="search">Search this site:</label>
-            <input type="search" id="search" name="search" list="searches">
-            <datalist id="searches">
-                <option value="Experience">
-                <option value="Age">
-                <option value="Contact Info">
-            </datalist>
-            <button type="submit">Search</button>
-        </form>
+    <nav class="links">
+        <button id="mobile" type="button">☰</button>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-    <div class="container">
-        <p> There are two ways to contact me.<br>You can either:</p>
-        <ol>
-          <li>Use the form</li>
-          <li>Send me an email</li>
-        </ol>
+    <hgroup>
+        <h1><span class="container">Contact Me</span></h1>
+    </hgroup>
+
         <form>
             <fieldset>
                 <legend>Contact Me</legend>
@@ -55,7 +44,6 @@
                 </address>
             </footer>
         </aside>
-    </div>
     <noscript>Warning: Your browser does not have JavaScript support or JavaScript is disabled! This may cause problems when viewing my site!</noscript>
 </body>
 </html>
