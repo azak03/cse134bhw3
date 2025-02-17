@@ -8,9 +8,6 @@
   font-weight: normal;
   font-style: normal;
 }
-blockquote {
-  color: color-mix(in display-p3, white 80%, orange 20%);
-}
 
 #mobile {
     display: none;
