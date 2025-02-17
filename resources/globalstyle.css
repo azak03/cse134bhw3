@@ -1,5 +1,7 @@
 :root {
   --site-font: futura, Helvetica, Arial;
+  --header-color: color(display-p3 0.4 0.6 0.8);
+  --fallback-color: #6699CC;
 }
 
 @font-face {
@@ -56,7 +58,7 @@ body {
 }
 
 h1 {
-  color: color(display-p3 0.4 0.6 0.8);
+  color: var(--primary-color, var(--fallback-color));
 }
 
 h2 {
