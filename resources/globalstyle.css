@@ -121,6 +121,7 @@ figure img {
   }
   section p {
     padding: 0 6dvw;
+    text-align: left;
   }
   .links a {
     display: none;
