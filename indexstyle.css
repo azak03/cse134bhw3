@@ -95,6 +95,12 @@ figure img {
 
 
 @media (max-width: 768px) {
+  figure {
+    float: none;
+    width: 100%;
+    margin-left: 1rem auto;
+    padding: 0 3dvw;
+  }
   body {
     font-size: 2rem;
   }
