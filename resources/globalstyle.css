@@ -84,7 +84,6 @@ figure:has(img) {
 figure {
     margin-left: 1rem auto;
     padding: 0 3dvw;
-    box-sizing: border-box;
 }
 
 figure img {
@@ -112,6 +111,7 @@ figure img {
   figure img {
     object-fit: cover;
     object-position: center;
+    box-sizing: border-box;
   }
   body {
     font-size: 2rem;
