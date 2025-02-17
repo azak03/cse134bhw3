@@ -1,7 +1,11 @@
 :root {
   --site-font: futura, Helvetica, Arial;
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'futura';
   src: url('resources/futura-book-webfont.woff2') format('woff2'),
@@ -29,7 +33,6 @@ blockquote {
   margin: 0.5rem auto;
   align-self: stretch;
   border-bottom: 1px solid gray;
-  padding: 0;
   width: 100%;
 }
 
