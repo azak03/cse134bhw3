@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'futura';
-  src: url('futura-book-webfont.woff2') format('woff2'),
+  src: url('resources/futura-book-webfont.woff2') format('woff2'),
   font-weight: normal;
   font-style: normal;
 }
@@ -75,20 +75,18 @@ section p {
 }
 
 figure:has(img) {
-  float: none;
-  width: 100%;
+    float: right;
+    width: 30%;
 }
+
 figure {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
+    margin-left: 1rem auto;
+    padding: 0 3dvw;
 }
+
 figure img {
-  object-fit: cover;
-  object-position: center;
-}
-figure {
-  padding: 0 6dvw;
+    width: 100%;
+    height: auto;
 }
 
 @keyframes fadeIn {
@@ -111,11 +109,11 @@ figure {
     object-fit: cover;
     object-position: center;
   }
-  figure {
-    padding: 0 6dvw;
-  }
   body {
     font-size: 2rem;
+  }
+  figure {
+    padding: 0 6dvw;
   }
   section p {
     padding: 0 6dvw;
