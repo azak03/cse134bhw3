@@ -1,11 +1,7 @@
 :root {
   --site-font: futura, Helvetica, Arial;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 @font-face {
   font-family: 'futura';
   src: url('resources/futura-book-webfont.woff2') format('woff2'),
@@ -54,7 +50,6 @@ body {
     font-family: var(--site-font);
     background-color: #1c1c1d;
     margin: 0;
-    padding: 0 3dvw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,12 +73,14 @@ section {
 
 section p {
   text-align: left;
+  padding: 0 3dvw;
 }
 
 figure {
     float: right;
     width: 30%;
     margin-left: 1rem auto;
+    padding: 0 3dvw;
 }
 
 figure img {
@@ -99,8 +96,13 @@ figure img {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 6dvw;
     font-size: 2rem;
+  }
+  figure {
+    padding: 0 6dvw;
+  }
+  section p {
+    padding: 0 6dvw;
   }
   .links a {
     display: none;
