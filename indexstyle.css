@@ -12,6 +12,17 @@ blockquote {
   color: color-mix(in display-p3, white 80%, orange 20%);
 }
 
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
 #mobile {
     display: none;
     font-size: 3rem;
