@@ -98,7 +98,7 @@ figure img {
   figure {
     float: none;
     width: 100%;
-    margin-left: none;
+    margin-left: 2rem auto;
     padding: 0;
   }
   figure img {
