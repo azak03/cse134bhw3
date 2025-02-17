@@ -66,7 +66,7 @@ h2 {
 }
 
 section {
-    animation: fadeIn 1s ease-in;
+    animation: fadein 1s ease-in;
     overflow: hidden;
     border-bottom: 0.0625rem solid gray;
 }
@@ -92,7 +92,7 @@ figure img {
     max-width: 100%;
 }
 
-@keyframes fadeIn {
+@keyframes fadein {
     from { opacity: 0; }
     to { opacity: 1; }
 }
