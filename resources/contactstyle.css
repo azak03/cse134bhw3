@@ -17,6 +17,7 @@ input, select, textarea {
     box-sizing: border-box;
     overflow: hidden;
     max-width: 100%;
+    margin-bottom: 0.5rem;
 }
 
 button {
