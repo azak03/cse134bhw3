@@ -11,6 +11,7 @@ input, select, textarea {
     border: none;
     background-color: #343436;
     color: white;
+    box-sizing: border-box;
 }
 
 button {
