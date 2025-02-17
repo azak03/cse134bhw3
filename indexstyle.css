@@ -76,7 +76,7 @@ section::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100vw; /* Full width of the viewport */
+    width: 100vw;
     height: 1px;
     background-color: gray;
 }
