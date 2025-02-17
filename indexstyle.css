@@ -99,8 +99,7 @@ figure img {
     float: none;
     width: 100%;
     margin-left: 0 auto;
-    padding: 0 3dvw;
-    text-align: left;
+    padding: 0;
   }
   body {
     font-size: 2rem;
