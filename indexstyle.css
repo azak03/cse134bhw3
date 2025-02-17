@@ -32,12 +32,16 @@ blockquote {
   width: 100%;
 }
 
-.links a {
+.links:has(a) {
   text-decoration: none;
   display: block;
   padding: 1em;
   color: #ADD8E6;
   font-weight: italic;
+}
+
+.links a {
+
 }
 
 .links a:hover {
