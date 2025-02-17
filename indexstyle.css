@@ -98,9 +98,11 @@ figure img {
 
 
 @media (max-width: 768px) {
-  figure {
+  figure:has(img) {
     float: none;
     width: 100%;
+  }
+  figure {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
