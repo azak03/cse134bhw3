@@ -102,6 +102,7 @@ figure img {
   figure:has(img) {
     float: none;
     width: 100%;
+    box-sizing: border-box;
   }
   figure {
     margin-left: auto;
@@ -111,7 +112,6 @@ figure img {
   figure img {
     object-fit: cover;
     object-position: center;
-    box-sizing: border-box;
   }
   body {
     font-size: 2rem;
