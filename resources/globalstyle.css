@@ -72,8 +72,8 @@ section {
 }
 
 section p {
-  text-align: left;
   padding: 0 3dvw;
+  margin: 0 auto;
 }
 
 figure:has(img) {
