@@ -66,9 +66,6 @@ h2 {
 }
 section::before {
     content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100vw; /* Full width of the viewport */
     height: 1px; /* Border height */
     background-color: gray; /* Border color */
