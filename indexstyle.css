@@ -68,7 +68,6 @@ h2 {
 
 section {
     animation: fadeIn 1s ease-in;
-    animation-delay: 0.2s;
     overflow: hidden;
     border-bottom: 1px solid gray;
 }
